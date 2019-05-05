@@ -1,0 +1,130 @@
+.form_wizard header{
+    margin-top: 100px;
+    position: relative
+}
+.form_wizard header .steps_header_liste_view{
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    font-family: Poppins;
+    text-align: center;
+}
+.form_wizard header .effect_backgroud{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 2px -2px;
+    background: rgb(249, 249, 249);
+    height: 60px;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    z-index: -1
+}
+.form_wizard header .progress{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #c8c8c8
+}
+.form_wizard header .progress .progress-bar{
+    background-color: black
+}
+.form_wizard header .effect_backgroud,
+.form_wizard header .progress{
+    top: 18px
+}
+.form_wizard header .steps_header_liste_view .item .icon{
+    display: block;
+    margin: auto;
+}
+.form_wizard header .steps_header_liste_view .active .icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: black 1px solid;
+    background-color: white;
+    color: black;
+}
+.form_wizard header .steps_header_liste_view .loading .icon{
+    width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 10px
+}
+.form_wizard header .steps_header_liste_view .disabled .icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: gray;
+    color: white;
+}
+.form_wizard header .steps_header_liste_view .disabled .icon,
+.form_wizard header .steps_header_liste_view .active .icon{
+    margin-top: 5px;
+    padding-top: 5px
+}
+.form_wizard header .steps_header_liste_view .loading .desc{
+    color: black
+}
+.form_wizard header .steps_header_liste_view .disabled .desc{
+    color: #757575
+}
+.form_wizard header .steps_header_liste_view .active .desc{
+    color: black
+}
+.form_wizard section{
+    margin-top: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.form_wizard section .form_item .form_body{
+    border: #d3cbd1 1px solid;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    line-height: 1.25;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    text-transform: capitalize;
+    font-family: Poppins;
+    margin-top: 50px
+}
+.form_wizard section form p{
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+.form_wizard section form .form-control{
+    margin-bottom: 15px
+}
+.form_wizard footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: #d3cbd1 1px solid;
+    border-bottom: #d3cbd1 1px solid;
+}
+.form_wizard section .form_item .step_status{
+    background-color: rgb(249, 249, 249);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px blue solid;
+}
+.form_wizard section .form_item .step_status > div > div{
+    padding-left: 15px;
+    padding-right: 15px
+}
+.form_wizard section .form_item .step_status .icon img{
+    width: 30px;
+    height: 30px
+}
+@media(max-width: 950px){
+    .form_wizard section{
+        padding: 15px
+    }
+}

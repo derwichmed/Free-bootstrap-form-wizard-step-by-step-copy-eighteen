@@ -1,0 +1,445 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/my_style.css"/>
+        <link rel="stylesheet" href="../team_profile/css/my_style.css"/>
+        <script src="js/jquery-3.3.1.min (1).js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/responsiv.js"></script>
+        </head>
+        <body class="container-fluid">
+            <section class="row justify-content-center form_wizard">
+                <div class="col-lg-9">
+                    <header class="container-fluid">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-animated">
+                                
+                            </div>
+                        </div>
+                        <div class="row steps_header_liste_view">
+                            <div class="item col active">
+                                <div class="icon">
+                                    1
+                                </div>
+                                <div class="desc">
+                                    <span>
+                                        Account
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item col loading">
+                                <div class="icon">
+                                    2
+                                </div>
+                                <div class="desc">
+                                    <span>
+                                        Personnel
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item col disabled">
+                                <div class="icon">
+                                    3
+                                </div>
+                                <div class="desc">
+                                    <span>
+                                        Bank
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item col disabled">
+                                <div class="icon">
+                                    4
+                                </div>
+                                <div class="desc">
+                                    <span>
+                                        Confirm
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row effect_backgroud"></div>
+                    </header>
+                    <section class="container-fluid">
+                        <form>
+                            <div class="row form_item">  
+                                <div class="col-lg">
+                                    <div class="container-fluid step_status  justify-content-between">
+                                        <div class="row justify-content-between">
+                                            <div class="label">
+                                                <span>
+                                                    Account information:
+                                                </span>
+                                            </div>
+                                            <div class="icon">
+                                                <img src="img/lock-padlock-symbol-for-protect_icon-icons.com_56926.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid form_body">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                            <p>
+                                                If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+                                            </p>
+                                           </div> 
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    User name:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                            <div class="col-lg">
+                                                <div class="row">
+                                                    <div class="col-lg">
+                                                        <label>
+                                                            Email:
+                                                        </label>
+                                                        <input type="text" class="form-control"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    Password:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                            <div class="col-lg">
+                                                <label>
+                                                    Verif password:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <!-- personnel information form -->
+                            <div class="row form_item" style="display: none">  
+                                <div class="col-lg">
+                                    <div class="container-fluid step_status  justify-content-between">
+                                        <div class="row justify-content-between">
+                                            <div class="label">
+                                                <span>
+                                                    Personnel information:
+                                                </span>
+                                            </div>
+                                            <div class="icon">
+                                                <img src="img/masculine-avatar-user-with-suit_icon-icons.com_68296.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid form_body">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                            <p>
+                                                If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+                                            </p>
+                                           </div> 
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    First name:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                            <div class="col-lg">
+                                                <div class="row">
+                                                    <div class="col-lg">
+                                                        <label>
+                                                            Last name:
+                                                        </label>
+                                                        <input type="text" class="form-control"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    Gender:
+                                                </label>
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            <input type="checkbox"/>
+                                                        </td>
+                                                        <td>
+                                                            <label style="padding-top: 10px;margin-right: 15px">
+                                                                Male
+                                                            </label>
+                                                        </td>
+                                                        <td>
+                                                            <input type="checkbox"/>
+                                                        </td>
+                                                        <td>
+                                                            <label style="padding-top: 10px">
+                                                                Femal
+                                                            </label>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-lg">
+                                                <label>
+                                                    Date of birth
+                                                </label>
+                                                <input type="date" class="form-control"/>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    Phone number:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    Adress location:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    Zib code:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    State:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                            <div class="col-lg">
+                                                <label>
+                                                    Country:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Bank information form -->
+                            <div class="row form_item" style="display: none">  
+                                <div class="col-lg">
+                                    <div class="container-fluid step_status  justify-content-between">
+                                        <div class="row justify-content-between">
+                                            <div class="label">
+                                                <span>
+                                                    Bank information:
+                                                </span>
+                                            </div>
+                                            <div class="icon">
+                                                <img src="img/bank_78916.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid form_body">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                            <p>
+                                                If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+                                            </p>
+                                           </div> 
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    Bank name:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                            <div class="col-lg">
+                                                 <label>
+                                                     Holder name:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    Account name:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    Account number:
+                                                </label>
+                                                <input type="text" class="form-control"/>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <label>
+                                                    Account created:
+                                                </label>
+                                                <input type="date" class="form-control"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- confirm information form -->
+                            <div class="row form_item" style="display: none">  
+                                <div class="col-lg">
+                                    <div class="container-fluid step_status  justify-content-between">
+                                        <div class="row justify-content-between">
+                                            <div class="label">
+                                                <span>
+                                                    Confirm information:
+                                                </span>
+                                            </div>
+                                            <div class="icon">
+                                                <img src="img/check_icon.png"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container-fluid form_body">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                            <p>
+                                                If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+                                            </p>
+                                           </div> 
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <table class="table table-striped">
+                                                    <tr>
+                                                        <td>
+                                                            Name
+                                                        </td>
+                                                        <td>
+                                                            Abdul Kuddus
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Email
+                                                        </td>
+                                                        <td>
+                                                            some@ex.com
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Phone
+                                                        </td>
+                                                        <td>
+                                                            0123456789
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            User name
+                                                        </td>
+                                                        <td>
+                                                            Abdulkuddus99
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Gender
+                                                        </td>
+                                                        <td>
+                                                            Male
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Adress
+                                                        </td>
+                                                        <td>
+                                                            House #06 kallayanpur, Dhaka
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Zib code
+                                                        </td>
+                                                        <td>
+                                                            1442
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Country
+                                                        </td>
+                                                        <td>
+                                                            Tunisie
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            Banck name
+                                                        </td>
+                                                        <td>
+                                                            Zaitounas bnt
+                                                        </td>
+                                                    </tr>	
+                                                    <tr>
+                                                        <td>
+                                                            Dhaka city Branch
+                                                        </td>
+                                                        <td>
+                                                            Dhaka city Branch
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-end">
+                                            <div style="padding: 15px">
+                                                <input type="submit" value="SUBMIT" class="btn btn-danger"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                    <footer class="container-fluid">
+                        <div class="row justify-content-end">
+                            <div>
+                                <button class="btn btn-primary pre_btn">
+                                    previous
+                                </button>
+                                <button class="btn btn-primary nxt_btn">
+                                    next
+                                </button>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+        </body>
+</html>
